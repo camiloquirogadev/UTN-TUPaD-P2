@@ -1,0 +1,15 @@
+# Archivos y carpetas de NetBeans
+nbproject/private/
+build/
+dist/
+**/*.class
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Archivos de IDE (opcional, por si usás otro IDE después)
+*.iml
+.idea/
+*.sublime-project
+*.sublime-workspace
