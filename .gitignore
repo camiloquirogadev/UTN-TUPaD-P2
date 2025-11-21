@@ -4,6 +4,10 @@ build/
 dist/
 **/*.class
 
+# Carpeta de binarios compilados
+bin/
+*.class
+
 # Archivos del sistema
 .DS_Store
 Thumbs.db
@@ -16,3 +20,10 @@ Thumbs.db
 /05 UML/nbproject/private/
 /src/05 UML/nbproject/private/
 /src/06 Colecciones/nbproject/private/
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# Logs
+*.log
