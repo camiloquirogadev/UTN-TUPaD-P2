@@ -13,3 +13,5 @@ Thumbs.db
 .idea/
 *.sublime-project
 *.sublime-workspace
+/05 UML/nbproject/private/
+/src/05 UML/nbproject/private/
