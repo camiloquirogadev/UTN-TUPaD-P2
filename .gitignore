@@ -1,8 +1,11 @@
 # Archivos y carpetas de NetBeans
 nbproject/private/
+nbproject/build-impl.xml
+nbproject/
 build/
 dist/
 **/*.class
+manifest.mf
 
 # Carpeta de binarios compilados
 bin/
@@ -24,6 +27,12 @@ Thumbs.db
 # VS Code
 .vscode/
 *.code-workspace
+
+# GitHub
+.github/
+
+# NetBeans
+nbproject/
 
 # Logs
 *.log
