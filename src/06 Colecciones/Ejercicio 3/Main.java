@@ -42,7 +42,7 @@ public class Main {
         System.out.println("\n--- Listar Profesores (con Cursos) ---");
         universidad.listarProfesores();
         // Mostrar también los cursos desde el lado del profesor
-        for (Profesor p : universidad.profesores) {
+        for (Profesor p : universidad.getProfesores()) {
             p.listarCursos();
         }
 

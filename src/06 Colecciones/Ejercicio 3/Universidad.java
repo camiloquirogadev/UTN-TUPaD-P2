@@ -30,6 +30,10 @@ public class Universidad {
         return null;
     }
 
+    public List<Profesor> getProfesores() {
+        return profesores;
+    }
+
     // Métodos para Cursos
     public void agregarCurso(Curso c) {
         if (c != null && !cursos.contains(c)) {
