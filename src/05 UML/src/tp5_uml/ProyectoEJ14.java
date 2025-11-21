@@ -1,11 +1,11 @@
 package tp5_uml;
 
-// Clase Proyecto (del Ejercicio 14)
-class Proyecto {
+// Clase Proyecto (Relación de Asociación Unidireccional con Render) - Ejercicio 14
+public class ProyectoEJ14 { // Debe ser 'public class ProyectoEJ14'
     private String nombre;
-    private int duracionMin; // Duración en minutos
+    private int duracionMin;
 
-    public Proyecto(String nombre, int duracionMin) {
+    public ProyectoEJ14(String nombre, int duracionMin) {
         this.nombre = nombre;
         this.duracionMin = duracionMin;
     }
@@ -29,7 +29,7 @@ class Proyecto {
 
     @Override
     public String toString() {
-        return "Proyecto{" +
+        return "ProyectoEJ14{" +
                 "nombre='" + nombre + '\'' +
                 ", duracionMin=" + duracionMin +
                 '}';
